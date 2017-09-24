@@ -1,13 +1,28 @@
 @charset "utf-8";
 
-body { 
+/*body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font: 14px "Trebuchet MS"; 
+	font: 14px "Trebuchet MS";
 	background:#ebebeb;
 	text-align: center;
-} 
+}
+*/
+body {
+	height:100%;
+	font-family: "Lato", "Serif";
+	font-weight: 300;
+	padding:0;
+	margin:0;
+	font-size:16px;
+	line-height: 28px;
+	color: #777; 
+	background: #fff;
+	overflow-x:hidden;
+	position: relative;
+}
+
 
 .inicio img {
 	max-width:900px;
@@ -17,3 +32,75 @@ body {
 .button {
 
 }
+
+.fullscreen {
+    width:100%;
+    min-height:100%;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-position:50% 50%\9 !important;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo {
+	margin: 100px 0 40px 0;
+}
+.logo img{
+	width: 150px; 
+	height: 37px
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.landing h1 {
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.landing-text {
+    margin-bottom: 20px;
+}
+
+.landing p, .landing h2 {
+	color: #fff;
+}
+.landing-text {
+	margin-bottom: 20px;
+}
+.landing-text p {
+	font-size: 17px !important; 
+}
+.signup-header {
+	margin: 150px 0 100px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 4px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.signup-header h3{
+	padding: 20px 0 10px;
+	color: white;
+	font-weight: 300;
+}
+
